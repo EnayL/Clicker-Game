@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+
+<header>
+    <h1>The Legend of Zelda : Master Sword Clicker Quest</h1>
+</header>
+
+<body>
+    <div class="div1">
+        <section class="section1">
+            <div class="flex">
+                <div class="totalgold">
+                    <h2>Total of Rupees</h2>
+                    <img src="../img/4e3e7504fab71df4aa0f41263241f3e8f2fe59a2_hq.gif" class="rubis">
+                    <img src="../img/4e3e7504fab71df4aa0f41263241f3e8f2fe59a2_hq.gif" class="rubis2">
+                    <section id='golds' class="gold"></section>
+                    <div>
+                        <h2 class=h2title>Rupees per secondes</h2>
+                        <section id="gps" class="gps"></section>
+                        <button onclick="increment(1)" class="click" class="animation" id="animation">Attack !</button>
+                    </div>
+                </div>
+                <div class="minion" class="gps">
+                    <img src="../img/7ca49b9dd1838b74a11e8445bdee727f-removebg-preview.png" class="changeimg"
+                        id="imgchange">
+                </div>
+            </div>
+            <div class="shop">
+
+                <h3 class="h3shop">Shop</h3>
+                <div class="produit">
+                    <img class="img" src="../img/bombe.png">
+                    <h3>Bombs</h3>
+                    <h4>Bombs are devices used to create explosions</h4>
+                    <button onclick="buyMinion(1)" class="button">buy</button>
+                    <h4>grants you +5 rupees per seconds</h4>
+                    <div class="pricebombs" id="price_1">
+                        price
+                    </div>
+                    <img src="../img/news-2132397384_full-removebg-preview.png" class="rubisimg">
+                </div>
+                <div class="produit">
+                    <img class="img" src="../img/firearrow-removebg-preview.png">
+                    <h3>Fire Arrow</h3>
+                    <h4>An arrow imbued with the power of fire</h4>
+                    <button onclick="buyMinion(2)" class="button">buy</button>
+                    <h4>grants you +10 rupees per seconds</h4>
+                    <div class="pricearrow" id="price_2">
+                        price
+                    </div>
+                    <img src="../img/news-2132397384_full-removebg-preview.png" class="rubisimg">
+                </div>
+                <div class="produit">
+
+                    <img class="img" src="../img/fee.png">
+                    <h3>Great Fairy's Tears</h3>
+                    <h4> Restoring all Hearts and Temporarily doubling strength </h4>
+                    <button onclick="buyMinion(3)" class="button">buy</button>
+                    <h4>grants you +100 rupees per seconds</h4>
+                    <div class="pricefee" id="price_3">
+                        price
+                    </div>
+                    <img src="../img/news-2132397384_full-removebg-preview.png" class="rubisimg">
+                </div>
+
+            </div>
+        </section>
+    </div>
+</body>
+
+
+</html>
+<script src="../js/script.js"></script>

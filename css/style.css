@@ -1,0 +1,205 @@
+header{
+    border:solid;
+    width:99.5% ;
+    height:15vh;
+  background: linear-gradient(70deg, #eae9aad8 ,#e7f1dfcc);      
+}
+
+body{
+background-image: url(../img/legend\ of\ zelda\ wallpaper\ 77\ -\ 1920x1080.jpg);
+background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+min-width: 95%;
+min-height: 100vh;
+}
+
+.section1{
+  display:flex;
+}
+
+h1{
+  text-align: center;
+  font-size:3vw;
+}
+.h2title{
+  text-align: center;
+  font-size:1vw;
+  margin-top:2%;
+}
+h2{
+  font-size:4vw;
+  text-align: center;
+}
+
+.h3shop{
+  font-size:2vw;
+  text-align: center;
+  margin-top:1%;
+}
+
+h3{
+  font-size:2vw;
+  text-align: center;
+  margin-top:-16%;
+}
+
+h4{
+  font-size:1.2vw;
+  text-align: center;
+  margin-top: -2%;
+}
+.rubis{
+  width:25%;
+  margin-top:-30%;
+  margin-left:80%;
+}
+
+.rubis2{
+  width:25%;
+  margin-top:-26%;
+  margin-left:-4%;
+}
+
+.rubisimg{
+    width:5%;
+    margin-top:-10%;
+    margin-left:90%;
+  }
+
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.totalgold{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 5vw;
+  width:40vw;
+  height:55%;
+  background-color:#cfd7a59f;
+  border:solid;
+  margin-top:3%;
+  margin-left:2%; 
+}
+
+.animation{
+  background-image: url(../img/efeitos-gif-10-unscreen.gif);
+ background-size:cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ width:50%;
+ margin-top:-35%;
+ margin-left:26%;
+
+ 
+}
+
+.click{
+margin: auto;
+margin-bottom: 14%;
+height: 10vh;
+border:solid;
+background-color:#e9de8088;
+width:40%;
+padding:0vw;
+margin-top:5%;
+}
+
+
+.gold{
+  margin: auto;
+  margin-top:-1%;
+  font-size:2vw;
+}
+
+.gps{
+  margin: auto;
+  margin-top:-1%;
+  font-size:2vw;
+}
+
+.shop{
+  width:54% ;
+  height:77.5vh;
+  margin-top:1%;
+  margin-left:auto;
+  margin-right:2%;
+  border:solid 0.2em;
+  border-color:#cfd7a5d5;
+  background-color:#000000a9;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricebombs{
+  margin-top:-15%;
+  margin-left:85%;
+}
+
+.pricearrow{
+  margin-top:-15%;
+  margin-left:85%;
+}
+
+.pricefee{
+  margin-top:-15%;
+  margin-left:85%;
+}
+
+/*product*/
+.produit{
+  background-color:#a67a457e;
+  width:95%;
+  height:25%;
+  margin-top: 1%;
+  margin-left:2%;
+  border:solid;
+}
+
+
+.img{
+  width:23%;
+  height:75%;
+  margin-top:2%
+}
+
+
+.div1{
+  margin:auto;
+}
+ 
+
+.minion{
+  background-color:#cfd7a59f;
+  width:40vw;
+  height:27.5vh;
+  margin-top:5%;
+  margin-left:2%;
+  border:solid;
+
+}
+
+.changeimg{
+width: 40%;
+margin-left:29%;
+height:100%;
+}
+
+.button{
+width:15%;
+height:20%;
+margin-left:80%;
+border:solid;
+background-color: #e9de8088;
+}
+
+.button:active {
+  background-color: #e9de8088;
+  box-shadow: 0 5px #e9de8088;
+  transform: translateY(4px);
+}
